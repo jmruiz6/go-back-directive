@@ -10,3 +10,4 @@ Simply copy files goBack.directive.js, goBack.html and goBack.scss into your pro
 <go-back go-back-function="goBackFunction()"></go-back>
 
 ```
+Yo should have FontAwesome Icons (http://fontawesome.io/icons/) in your proyect as a dependency.
