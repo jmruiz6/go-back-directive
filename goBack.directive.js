@@ -7,14 +7,14 @@
 (function () {
     'use strict';
 
-    angular.module('blocks.theme.components')
+    angular.module('goBack')
         .directive('goBack', goBack);
 
     /* @ngInject */
     function goBack() {
         return {
             restrict: 'E',
-            templateUrl: 'app/blocks/theme/components/goBack/goBack.html',
+            templateUrl: 'goBack.html',
             scope: {
                 goBackFunction: '&'
             }
